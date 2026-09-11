@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Morsels Bloom — Patisserie & Atelier')</title>
-    <meta name="description" content="@yield('description', 'Handcrafted cakes, pastries, and dessert boxes made fresh daily with premium ingredients.')">
+    <title>@yield('title', 'Morsel Bloom — Filipino Sweet Treats & Home Bakery')</title>
+    <meta name="description" content="@yield('description', 'Home-baked Filipino delicacies — banana cakes, choco pops, puto, mini donuts, and polvoron. Order online today.')">
 
     {{-- Fonts: Epilogue (headings/display) + Plus Jakarta Sans (body/labels) --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">

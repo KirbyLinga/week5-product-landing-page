@@ -5,17 +5,16 @@
     <x-review-card
         quote="The cake was absolutely beautiful and tasted even better."
         name="Emily Chen"
-        role="Customer"
-        initials="EC"
+        position="Customer"
         :rating="5"
     />
 --}}
 @props([
     'quote' => 'This is a placeholder review quote.',
     'name' => 'Customer Name',
-    'role' => 'Customer',
-    'initials' => 'CN',
-    'avatar' => null, // optional real photo URL — falls back to initials avatar
+    'position' => 'Customer',
+    'avatar' => null,
+    'initials' => null,
     'rating' => 5,
 ])
 
@@ -35,12 +34,12 @@
             <img src="{{ $avatar }}" alt="{{ $name }}" class="w-10 h-10 rounded-full object-cover">
         @else
             <span class="w-10 h-10 rounded-full bg-tertiary text-primary flex items-center justify-center text-xs font-bold">
-                {{ $initials }}
+                {{ $initials ?? strtoupper(substr($name, 0, 1) . (strpos($name, ' ') !== false ? substr($name, strpos($name, ' ') + 1, 1) : '')) }}
             </span>
         @endif
         <div class="leading-tight">
             <p class="text-sm font-semibold text-neutral">{{ $name }}</p>
-            <p class="text-xs text-primary font-medium">{{ $role }}</p>
+            <p class="text-xs text-primary font-medium">{{ $position }}</p>
         </div>
     </div>
 </div>

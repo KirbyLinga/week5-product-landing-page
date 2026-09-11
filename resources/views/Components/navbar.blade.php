@@ -3,13 +3,13 @@
     Links are passed as a simple array so it's easy to reuse/reorder per page.
 --}}
 @props([
-    'logoText' => 'Morsels Bloom',
-    'logoTagline' => 'PATISSERIE & ATELIER',
+    'logoText' => 'Morsel Bloom',
+    'logoTagline' => 'Home Bakery',
     'links' => [
         ['label' => 'Home', 'href' => '#home'],
-        ['label' => 'Our Menu', 'href' => '#menu'],
-        ['label' => 'Specialties', 'href' => '#specialties'],
-        ['label' => 'Reviews', 'href' => '#reviews'],
+        ['label' => 'Features', 'href' => '#features'],
+        ['label' => 'Pricing', 'href' => '#pricing'],
+        ['label' => 'Testimonials', 'href' => '#testimonials'],
         ['label' => 'Contact', 'href' => '#contact'],
     ],
 ])
@@ -43,8 +43,8 @@
                 <a href="#signin" class="text-sm font-medium text-neutral hover:text-primary transition-colors px-2">
                     Sign In
                 </a>
-                <x-button href="#order" variant="primary" size="sm" icon="shopping-bag">
-                    Order Now
+                <x-button href="#order" variant="primary" size="sm" icon="arrow-right">
+                    Get Started
                 </x-button>
             </div>
 
@@ -75,8 +75,8 @@
                 <a href="#signin" class="text-sm font-medium text-neutral text-center py-2 rounded-full border border-neutral/10 hover:bg-cream">
                     Sign In
                 </a>
-                <x-button href="#order" variant="primary" size="sm" icon="shopping-bag" class="w-full">
-                    Order Now
+                <x-button href="#order" variant="primary" size="sm" icon="arrow-right" class="w-full">
+                    Get Started
                 </x-button>
             </div>
         </div>

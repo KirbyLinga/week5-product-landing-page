@@ -2,14 +2,13 @@
     Site footer. Links/socials/contact passed as arrays so it stays reusable.
 --}}
 @props([
-    'logoText' => 'Morsels Bloom',
-    'tagline' => 'Made to sweeten your day',
-    'description' => 'Handcrafted desserts made to sweeten your everyday moments and special celebrations.',
+    'logoText' => 'Morsel Bloom',
+    'tagline' => 'Filipino Sweet Treats Made with Love',
+    'description' => 'Home-baked Filipino delicacies — banana cakes, choco pops, puto, mini donuts, and polvoron — crafted fresh for your merienda and celebrations.',
     'quickLinks' => [
         ['label' => 'Home', 'href' => '#home'],
-        ['label' => 'Our Menu', 'href' => '#menu'],
-        ['label' => 'Specialties', 'href' => '#specialties'],
-        ['label' => 'Packages', 'href' => '#packages'],
+        ['label' => 'Features', 'href' => '#features'],
+        ['label' => 'Pricing', 'href' => '#pricing'],
         ['label' => 'Testimonials', 'href' => '#testimonials'],
         ['label' => 'Contact', 'href' => '#contact'],
     ],
@@ -18,10 +17,10 @@
         ['label' => 'Instagram', 'caption' => 'Daily bakes', 'icon' => 'instagram', 'href' => '#'],
         ['label' => 'TikTok', 'caption' => 'Pastry tips', 'icon' => 'music-2', 'href' => '#'],
     ],
-    'address' => '742 Blossom Hill Rd, Suite B, Confectionery Row',
-    'phone' => '+1 (555) 438-2253',
-    'email' => 'hello@morselsbloom.com',
-    'hours' => 'Mon–Sat: 7:30 AM – 7:00 PM | Sun: 8:00 AM – 4:00 PM',
+    'address' => 'Barangay Poblacion, Philippines',
+    'phone' => '+63 917 123 4567',
+    'email' => 'hello@morselbloom.com',
+    'hours' => 'Mon–Sat: 7:00 AM – 6:00 PM | Sun: 8:00 AM – 2:00 PM',
     'year' => date('Y'),
 ])
 

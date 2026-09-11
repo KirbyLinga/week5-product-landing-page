@@ -3,15 +3,15 @@
     is reusable across any product/business, not just this one.
 --}}
 @props([
-    'eyebrow' => 'Freshly Made Daily • Crafted With Love',
+    'eyebrow' => 'Filipino Sweet Treats • Made Fresh Daily',
     'eyebrowIcon' => 'sparkles',
-    'headline' => 'Handcrafted Sweet Treats Made to',
+    'headline' => 'Handcrafted Filipino Sweet Treats Made to',
     'headlineHighlight' => 'Sweeten Every Moment.',
-    'description' => "From timeless favorites to delightful new creations, every sweet treat is carefully crafted with quality ingredients for your sweetest moments.",
+    'description' => "From classic banana cakes and puto to choco pops, mini donuts, and polvoron — every treat is lovingly made from quality ingredients for your merienda and celebrations.",
     'primaryCta' => ['label' => 'Order Now', 'href' => '#order', 'icon' => 'arrow-right'],
     'secondaryCta' => ['label' => 'Explore Our Menu', 'href' => '#menu', 'icon' => 'utensils'],
     'image' => asset('Images/Products/DonutHero.jpg'),
-    'imageBadgeTitle' => 'Sweet Delights',
+    'imageBadgeTitle' => 'Filipino Favorites',
     'imageBadgeSubtitle' => 'MADE FRESH EVERY MORNING',
     'rating' => '4.9/5',
     'ratingCaption' => 'Loved across 1,200+ happy customers',
