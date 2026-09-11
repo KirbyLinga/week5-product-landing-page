@@ -237,25 +237,6 @@ Screenshots documenting the evolution of the interface are saved in the `documen
 
 ---
 
-## Screenshots Folder Checklist
-
-- [ ] Before Design
-- [ ] After Design
-- [ ] Desktop Layout
-- [ ] Tablet Layout
-- [ ] Mobile Layout
-- [ ] Navigation Bar
-- [ ] Hero Section
-- [ ] Features Section
-- [ ] Pricing Cards
-- [ ] Testimonials
-- [ ] Footer
-- [ ] VS Code Project Structure
-- [ ] Blade Components Folder
-- [ ] GitHub Repository
-
----
-
 ## Reflection
 
 Building the Morsel Bloom landing page reinforced how much cleaner and faster development becomes with reusable Blade Components and utility-first CSS. Translating a real, existing business into a digital presence also highlighted how responsive design and clear UI decisions directly affect how trustworthy and professional a small business appears online.
