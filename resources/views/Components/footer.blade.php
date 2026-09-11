@@ -9,7 +9,7 @@
         ['label' => 'Home', 'href' => '#home'],
         ['label' => 'Features', 'href' => '#features'],
         ['label' => 'Pricing', 'href' => '#pricing'],
-        ['label' => 'Testimonials', 'href' => '#testimonials'],
+        ['label' => 'Reviews', 'href' => '#testimonials'],
         ['label' => 'Contact', 'href' => '#contact'],
     ],
     'socials' => [
