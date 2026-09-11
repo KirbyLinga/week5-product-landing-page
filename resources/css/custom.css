@@ -1,0 +1,58 @@
+/*
+  custom.css
+  A few hand-written rules that go beyond what Tailwind utility classes
+  conveniently express — kept separate from app.css so it's easy to point
+  to in the README's "UI Design" / "Tailwind CSS" documentation sections.
+*/
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-up {
+    animation: fadeUp 0.6s ease-out both;
+}
+
+.cta-gradient-overlay {
+    background: linear-gradient(135deg, #982255 0%, #711A40 60%, #26161C 100%);
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+    height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+    background: #F8D7E3;
+    border-radius: 999px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #982255;
+    border-radius: 999px;
+}
+
+.nav-link-underline {
+    position: relative;
+}
+
+.nav-link-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #982255;
+    transition: width 0.2s ease;
+}
+
+.nav-link-underline:hover::after {
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide x-cloak'd elements until Alpine.js initializes, to avoid a flash of the mobile menu */
+[x-cloak] {
+    display: none !important;
+}
