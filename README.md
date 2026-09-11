@@ -1,5 +1,6 @@
 # Morsel Bloom — Responsive Product Landing Page
 
+<<<<<<< HEAD
 **ITST 302 – Client-Server Technologies | Week 5 | Mini Project 04**
 
 ---
@@ -37,6 +38,52 @@ Through this activity, the following learning objectives were accomplished:
 
 ## 3. Responsive Web Design
 
+=======
+A responsive, component-based landing page built with **Laravel**, **Blade Components**, and **Tailwind CSS** for Morsel Bloom, a home bakery specializing in Filipino sweet treats such as banana cakes, choco pops, puto, mini donuts, and polvoron.
+
+---
+
+## 1. Project Title
+
+**Morsel Bloom — Responsive Product Landing Page**
+*ITST 302 – Client-Server Technologies | Week 5 | Mini Project 04*
+
+---
+
+## 2. Introduction
+
+### What is a Product Landing Page?
+A product landing page is a standalone web page designed with a single focus: introducing a product or business to visitors and guiding them toward a specific action, such as placing an order, sending an inquiry, or following the brand online. Unlike a general website with many pages and navigation paths, a landing page is intentionally focused, presenting only the information a customer needs to understand what is being offered and why it matters.
+
+### Why Landing Pages Are Important for Businesses
+For small and local businesses like Morsel Bloom, a landing page is often the first digital impression a potential customer has of the brand. A clear, professional landing page:
+- Builds trust and credibility for a home-based or small business.
+- Presents products, pricing, and contact details in one convenient place.
+- Improves customer engagement and encourages orders or inquiries.
+- Extends the brand's reach beyond word-of-mouth and social media posts.
+
+### Purpose of the Project
+This project transforms Morsel Bloom's existing product line and brand identity into a clean, responsive, and professional landing page. The goal is to give the business a digital presence that reflects the quality of its products while demonstrating component-based frontend development using Laravel Blade and Tailwind CSS.
+
+---
+
+## 3. Objectives
+
+Through this activity, the following learning objectives were accomplished:
+
+- Developed a fully responsive web interface using Tailwind CSS utility classes.
+- Built reusable Laravel Blade Components to eliminate duplicated markup across the page.
+- Applied responsive design principles across desktop, tablet, and mobile breakpoints.
+- Organized frontend code following Laravel's recommended folder structure (`layouts`, `components`, `pages`).
+- Implemented consistent UI design through a unified color palette, typography, and spacing system.
+- Documented the frontend architecture, component design, and design evolution of the project.
+- Prepared the project for professional portfolio publication via GitHub and LinkedIn.
+
+---
+
+## 4. Responsive Web Design
+
+>>>>>>> 4f8780975415cac81066044cdf3694e0f01f63ea
 ### Mobile-First Design
 The layout was built starting from the smallest screen size and progressively enhanced for larger viewports. Base utility classes in Tailwind target mobile screens by default, with `sm:`, `md:`, and `lg:` prefixes layered on top to adjust layout, spacing, and typography as the viewport grows. This ensures the page is fully usable on a phone before any desktop-specific styling is applied.
 
@@ -60,7 +107,11 @@ With the majority of web traffic coming from mobile devices, a non-responsive si
 
 ---
 
+<<<<<<< HEAD
 ## 4. Tailwind CSS
+=======
+## 5. Tailwind CSS
+>>>>>>> 4f8780975415cac81066044cdf3694e0f01f63ea
 
 ### Utility-First CSS
 Tailwind CSS provides small, single-purpose utility classes (e.g., `p-4`, `text-lg`, `rounded-xl`) that are combined directly in markup, rather than writing separate custom CSS files for each component.
@@ -89,9 +140,17 @@ Example from a product card used for items like Banana Cakes and Choco Pops:
     <p class="mt-2 font-semibold">{{ $price }}</p>
 </div>
 ```
+<<<<<<< HEAD
 ---
 
 ## 5. Blade Components
+=======
+This shows rounded corners (`rounded-2xl`), shadow utilities (`shadow-md`, `hover:shadow-lg`), spacing (`p-4`, `mb-3`, `mt-2`), and hover transitions applied entirely through utility classes.
+
+---
+
+## 6. Blade Components
+>>>>>>> 4f8780975415cac81066044cdf3694e0f01f63ea
 
 ### What Are Blade Components?
 Blade Components are reusable pieces of Laravel's templating engine that encapsulate a section of markup (and optional logic) into a single, reusable file. They can accept data through props and be inserted into any page using a simple tag, such as `<x-navbar />` or `<x-feature-card :title="$title" />`.
@@ -112,7 +171,11 @@ resources/views/components/
 ├── hero.blade.php
 ├── feature-card.blade.php
 ├── pricing-card.blade.php
+<<<<<<< HEAD
 ├── review-card.blade.php
+=======
+├── testimonial-card.blade.php
+>>>>>>> 4f8780975415cac81066044cdf3694e0f01f63ea
 ├── button.blade.php
 └── footer.blade.php
 ```
@@ -130,6 +193,7 @@ $products = [
 @endforeach
 ```
 
+<<<<<<< HEAD
 ---
 
 ## 6. User Interface Design
@@ -155,6 +219,38 @@ Consistent spacing values (`p-4`, `gap-6`, `mb-8`, etc.) and a shared max-width 
 ---
 
 ## 7. Folder Structure
+=======
+*(Insert a screenshot of the components folder and rendered feature cards here.)*
+
+---
+
+## 7. User Interface Design
+
+### Color Palette
+Morsel Bloom's palette uses warm, appetizing tones suited to a bakery brand — soft pinks and browns paired with a neutral cream background — creating a friendly, homemade feel while keeping enough contrast for readability.
+
+### Typography
+A clean sans-serif font family was used throughout for legibility, with bold weights reserved for headings and product titles to create clear visual hierarchy.
+
+### Iconography
+Simple line-style icons represent each feature (e.g., freshness, delivery, custom orders), keeping the visual language consistent and lightweight.
+
+### Button Styles
+Primary buttons use a solid brand-color background with rounded corners and a hover state (`hover:bg-*`, `transition`), while secondary buttons use an outlined style to differentiate calls-to-action from lower-priority links.
+
+### Card Design
+Product, pricing, and testimonial cards share a consistent style: white background, rounded corners (`rounded-2xl`), soft shadow, and consistent internal padding, so that all card-based sections feel like part of the same design system.
+
+### Layout Consistency
+Consistent spacing values (`p-4`, `gap-6`, `mb-8`, etc.) and a shared max-width container were used across all sections to keep margins, padding, and alignment uniform from the navbar down to the footer.
+
+### How This Contributes to UX
+A consistent, harmonious design reduces visual friction — customers can focus on the products and offers rather than being distracted by inconsistent styling, which builds trust and encourages engagement.
+
+---
+
+## 8. Folder Structure
+>>>>>>> 4f8780975415cac81066044cdf3694e0f01f63ea
 
 ```
 week05-product-landing-page/
@@ -181,7 +277,13 @@ week05-product-landing-page/
 
 ---
 
+<<<<<<< HEAD
 ## 8. Screenshots
+=======
+## 9. Screenshots
+
+> Screenshots below should be placed in the `screenshots/` folder and linked accordingly.
+>>>>>>> 4f8780975415cac81066044cdf3694e0f01f63ea
 
 | Section | Screenshot |
 |---|---|
